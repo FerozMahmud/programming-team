@@ -1,0 +1,50 @@
+.programmer{
+    border: 1px solid wheat;
+}
+.programmer-box{
+    padding: 25px;
+    background-color: rgb(151, 151, 151);
+    height: 410px;
+    border-radius: 10px;
+}
+.programmer-box:hover{
+    background-color: rgb(139, 130, 130);
+}
+.programmer-box:hover img{
+    width: 240px;
+    height: 165px;
+    border: 3px solid rgb(238, 230, 230);
+}
+
+.programmer-box img{
+    width: 225px;
+    height: 150px;
+    border: 2px solid lightgray;
+    border-radius: 5%;
+    align-items: center;
+}
+.pro-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.select-btn{
+    background-color: green;
+    width: 150px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.select-btn:hover{
+    background-color: rgb(3, 94, 3);
+    color: honeydew;
+    font-size: 101%;
+    width: 170px;
+}
+.btn-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

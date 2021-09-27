@@ -1,0 +1,24 @@
+body{
+    background-color: gainsboro;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    text-align: left;
+    padding: 0% 5%;
+}
+.programmers-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap: 20px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.cart-container{
+    padding: 5px 20px;
+    background-color: rgb(184, 184, 184);
+    height: fit-content;
+    margin-top: 15px;
+    border: 2px solid wheat;
+    border-radius: 10px;
+}
